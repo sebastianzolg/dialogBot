@@ -1,0 +1,35 @@
+{
+  "name": "dialogBot",
+  "description": "",
+  "services": [
+    {
+      "id": "dialogB0T",
+      "appId": "54af3662-761b-49eb-9c80-275cf72ddc5d",
+      "appPassword": "xbwzxfDI11=_jSMDUJ871_#",
+      "type": "endpoint",
+      "endpoint": "https://dialogB0T.azurewebsites.net/api/messages",
+      "name": "Production"
+    },
+    {
+      "type": "endpoint",
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "id": "1",
+      "name": "development"
+    },
+    {
+      "type": "endpoint",
+      "appId": "1aecb244-396f-4560-801e-ecdb9fda528e",
+      "appPassword": "oojhHZ796+wihHNUMR79{@%",
+      "endpoint": "https://dialogbot20190313.azurewebsites.net/api/messages",
+      "id": "240",
+      "name": "bot"
+    }
+
+  ],
+  "padlock": "",
+  "version": "2.0",
+  "path": "D:\\Engenharia Informatica\\3º ano\\2º semestre\\Projeto Final\\Testes\\26-02-2019\\dialogBot\\dialogBot\\dialogBot.bot",
+  "overrides": null
+}
